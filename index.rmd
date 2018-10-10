@@ -16,7 +16,6 @@ This is site is intended as my sandpit to learn about R and Data Science.
 ## Profiles
 
 * [LinkedIn](https://www.linkedin.com/in/harrywendt/)
-* ...
 * [GitHub](http://github.com/harry-wendt)
 
 ## Contact
