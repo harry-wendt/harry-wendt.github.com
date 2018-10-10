@@ -2,9 +2,11 @@
 title: "My GitHub Learning Website"
 author: "harry wendt"
 date: "10/10/2018"
-output: 
-  html_document:
-    theme: spacelab
+output: html_document
+theme: spacelab
+toc: true
+toc_depth: 3
+toc_float: true
 ---
 
 ```{r setup, include=FALSE}
