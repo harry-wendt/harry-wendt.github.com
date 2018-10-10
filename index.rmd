@@ -37,18 +37,23 @@ This site is my sandpit to learn about R and Data Science.
 
 ## Data
 
-This is some test data:
+This is an example data summary of sunspot data from the package data():
 
-```{r cars}
-summary(cars)
+```{r sunspots}
+summary(sunspots)
 ```
 
 ## Plots
 
-This is a test plot:
+This is a test plot on sunspot numbers:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r sunspot.month, echo=FALSE}
+### Sunspot script
+require(stats); require(graphics)
+## Compare the monthly series
+plot (sunspot.month,
+      main="sunspot.month & sunspots [package'datasets']", col=2)
+lines(sunspots) # -> faint differences where they overlap
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
