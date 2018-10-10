@@ -1,7 +1,6 @@
 ---
 title: "My GitHub Learning Website"
 author: "harry wendt"
-date: "10/10/2018"
 output: html_document
 theme: spacelab
 toc: true
@@ -9,13 +8,16 @@ toc_depth: 3
 toc_float: true
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+![](image/harry.jpg){width=100px}
+
 ## About
 
-This is site is intended as my sandpit to learn about R and Data Science.
+This site is my sandpit to learn about R and Data Science.
 
 ## Profiles
 
@@ -28,7 +30,7 @@ This is site is intended as my sandpit to learn about R and Data Science.
 
 ## Data
 
-This is some test data
+This is some test data:
 
 ```{r cars}
 summary(cars)
@@ -36,7 +38,7 @@ summary(cars)
 
 ## Plots
 
-This is a test plot
+This is a test plot:
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
